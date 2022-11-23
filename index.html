@@ -1,11 +1,194 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Card MyLive 0.0.0</title>
+    <link rel="shortcut icon" href="./img/icons/id_card_01.svg" type="image/x-icon">
+    <title>card_myLive</title>
 </head>
-<body>
-    
+
+<style>
+    .body {
+        background-color: #080808c5;
+    }
+</style>
+
+<body class="body">
+    <header>
+        <nav>
+            <div>
+                <a>
+                    <img src="./img/icons/MyLive2.png" alt="Logo myLive" width="40" height="40" />
+                </a>
+                <ul>
+                    <li>
+                        <a href="#hero" class="list__link">Perfil</a>
+                    </li>
+                    <li>
+                        <a href="#experiences" class="list__link">myLive</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="list__link">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <div>
+                <div>
+                    <header>
+                        <h1>🎖️ myLive 🎖️</h1>
+                    </header>
+                    <section>
+                        <h2>❤ My Live, mi prioridad ❤</h2>
+                        <p>
+                            ⚛ La atención médica es prioritaria y mis datos médicos al alcance de un click, la educación y la información están orientados a realizar una atención segura y oportuna. ⚛
+                        </p>
+                    </section>
+                    <footer>
+                        <div>
+                            <a href="#" target="_blank"
+                                rel="noopener noreferrer">CV</a>
+                            <a href="https://github.com/mposiul" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </div>
+                    </footer>
+                </div>
+                <div>
+                    <img src="./img/picture/mposiul.jpg" alt="myLive" width="256">
+                    <figure>
+                        <img src="./img/category/html.svg" alt="HTML" width="64" height="64" />
+                        <img src="./img/category/css.svg" alt="CSS" width="64" height="64" />
+                        <img src="./img/category/js.svg" alt="JavaScript" width="64" height="64" />
+                        <img src="./img/category/react.svg" alt="React" width="64" height="64" />
+                    </figure>
+                </div>
+            </div>
+        </article>
+        <section id="experiences">
+            <div>
+                <h2>👨‍💻 Experiencias 👨‍💻</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>N°</th>
+                            <th>Empresa</th>
+                            <th>Cargo</th>
+                            <th>Funciones</th>
+                            <th>Periodo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Cineplanet</td>
+                            <td>Frontend Developer</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Desarrollo de aplicaciones con React y Redux basándome en un Figma y aplicando
+                                        Scrum.
+                                    </li>
+                                    <li>
+                                        Investigación, optimización, mantenimiento y presentación aplicando tecnologías
+                                        modernas.
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>julio 2022, presente</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Tecsup</td>
+                            <td>Docente Frontend</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Bootcamp: Desarrollo Frontend: git, Lógica P., HTML, CSS, JS, B, Sass, Node,
+                                        React, Testing.
+                                    </li>
+                                    <li>
+                                        Desarrollo de proyectos y materiales para el aprendizaje teórico y práctico de
+                                        los alumnos.
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>enero 2022, presente</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>DRIVEN</td>
+                            <td>Frontend Developer</td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        Desarrollo de aplicaciones e-commerce con VTEX IO y React bajo el marco de
+                                        trabajo Scrum.
+                                    </li>
+                                    <li>
+                                        Maquetación web de diseños del Figma en React esencialmente con CSS.
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>septiembre 2021, presente</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5">
+                                <a href="https://www.linkedin.com/in/elliotgaramendi/" target="_blank"
+                                    rel="noopener noreferrer">Ver más
+                                    experiencias</a>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+        <section id="contact">
+            <div>
+                <h2>🤗 Contacto 🤗</h2>
+                <form>
+                    <input type="tel" placeholder="Celular" required />
+                    <button>Contactar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="https://www.youtube.com/watch?v=o25JqvtYVUo" target="_blank"> <img
+                            src="./img/social/youtube.svg" alt="Youtube" width="34" height="34" /></a>
+                </li>
+                <li>
+                    <a class="card__footer-nav-link" href="https://github.com/mposiul" target="_blank"> <img
+                            src="./img/social/github.svg" alt="Github" width="34" height="34" /></a>
+                </li>
+                <li>
+                    <a class="card__footer-nav-link"
+                        href="https://www.linkedin.com/in/luis-p%C3%A9rez-maquera-a92949229/" target="_blank"> <img
+                            src="./img/social/linkedin.svg" alt="Linkedin" width="34" height="34" /></a>
+                </li>
+                <li>
+                    <a class="card__footer-nav-link" href="https://www.facebook.com/luis.perezmaquera.1"
+                        target="_blank"> <img src="./img/social/facebook.svg" alt="Facebook" width="34"
+                            height="34" /></a>
+                </li>
+                <li>
+                    <a class="card__footer-nav-link" href="https://twitter.com/LuisOma79891729" target="_blank"> <img
+                            src="./img/social/twitter.svg" alt="Twitter" width="34" height="34" /></a>
+                </li>
+            </ul>
+            <h5>Copyright &copy:
+                <a href="#">mposiul</a>
+                Todos los derechos reservados.
+            </h5>
+        </nav>
+    </footer>
 </body>
+
 </html>
