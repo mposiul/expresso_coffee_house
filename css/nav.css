@@ -1,0 +1,12 @@
+.nav {
+    /*background-color: blue;/**/
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.nav__logo {
+    display: flex;/*eliminalineasinrellenardebajodeimagendellogo*/
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}

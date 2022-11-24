@@ -1,0 +1,14 @@
+@import url(./variables.css);
+@import url(./utils.css);
+@import url(./layout.css);
+@import url(./header.css);
+@import url(./nav.css);
+@import url(./list.css);
+
+
+.body {
+    background-color: var(--primary-theme-color);
+    color: var(--primary-text-color);
+    font-family: var(--primary-font-family);
+    margin: 0;
+}
