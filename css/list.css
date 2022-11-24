@@ -4,6 +4,20 @@
     padding: 0;
 }
 
+.list--header {/*modificador directo empieza el slidemenu*/
+    position: fixed;
+    top: 4.125rem;/*ubicacion de menu en vista altura de la pagina*/
+    left: 0;
+    width: 100%;
+    height: calc(100% - 4.125rem);/*tamañodelslide*/
+    background-color: var(--transparencia_01);
+    transform: translateX(var(--traslate-list-header));
+    transition: 0.5s;
+    /*trabaja conestilos f-direction--column*/
+    /*trabaja conestilos f-elements--center*/
+    /*background-color: var(--test)
+    /*trabaja con botones header para slide*/;
+}
 .list__link {
     position: relative;
     color: var(--primary-text-color);
@@ -18,15 +32,24 @@
 
 .list__link::before {
     content: '';
-    /**/position: absolute;
+    position: absolute;
     left: 0;
-    bottom: 0.125rem;
-    width: 0;
+    bottom: -0.6px;
+    width: 0;/*trabaja con list__link:hover::before*/
     height: 0.0625rem;
-    color: var(--secondary-text-color);
+    background-color: var(--secondary-text-color);
     transition: width 0.25s;
 }
 
 .list__link:hover::before {
     width: 100%;
+}
+
+@media (min-width: 768px) {
+    .list--header {
+        position: static;
+        background-color: transparent;
+        width: auto;
+        height: auto;
+    }
 }

@@ -1,3 +1,22 @@
+.p-relative {
+    position: relative;/*contenedor que contiene la posicion absoluta del item .nav__icon*/
+}
+
+.f-direction-column {
+    flex-direction: column;
+}
+
 .gap-sm {
     gap: calc(var(--padding-section) * 0.5);/**/
+}
+
+.gap-md {
+    gap: var(--padding-section);
+}
+
+/*modificacion en ul*/
+@media (min-width: 768px) {
+    .md\:f-direction-row {
+        flex-direction: row;
+    }
 }
