@@ -18,7 +18,7 @@
         <nav class="nav" id="header-nav">
             <div class="container f-elements f-elements--header p-relative">
                 <a>
-                    <img src="./img/icons/MyLive2.png" alt="Logo myLive" width="40" height="40" class="nav__logo" />
+                    <img src="./img/icons/MyLive2.png" alt="Logo myLive" width="48" height="48" class="nav__logo" />
                 </a>
                 <a href="#header-nav" class="nav__icon nav__icon--menu"><i class="bi bi-list"></i></a>
                 <a href="#header-close" class="nav__icon nav__icon--close"><i class="bi bi-x-circle"></i></a>
@@ -36,34 +36,33 @@
             </div>
         </nav>
     </header>
-    <main>
-        <article id="hero" class="section section--hero f-elements f-elements--center">
-            <div class="container f-elements f-direction-column md:f-direction-row">
-                <div class="flex-1">
-                    <header>
-                        <h1>🎖️ myLive 🎖️</h1>
+    <main class="main">
+        <article id="hero" class="section hero f-elements f-elements--center">
+            <div class="container g-elements g-elements--responsive g-elements--center gap-lg">
+                <div class="card">
+                    <header class="card__header">
+                        <h1 class="card__title">🎖️ myLive 🎖️</h1>
                     </header>
-                    <section>
-                        <h2>❤ My Live, mi prioridad ❤</h2>
-                        <p>
+                    <section class="card__body">
+                        <h2 class="card__subtitle">My Live, mi prioridad</h2>
+                        <p class="card__text d-none md:d-block">
                             ⚛ La atención médica es prioritaria y mis datos médicos al alcance de un click, la educación y la información están orientados a realizar una atención segura y oportuna. ⚛
                         </p>
                     </section>
-                    <footer>
-                        <div>
-                            <a href="#" target="_blank"
-                                rel="noopener noreferrer">CV</a>
-                            <a href="https://github.com/mposiul" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <footer class="card__footer">
+                        <div class="f-elements f-elements--center gap-sm">
+                            <a href="#" target="_blank" rel="noopener noreferrer"  class="button button--primary">CV</a>
+                            <a href="https://github.com/mposiul" target="_blank" rel="noopener noreferrer" class="button button--outline-primary">GitHub</a>
                         </div>
                     </footer>
                 </div>
-                <div class="flex-1 f-elements f-elements--center">
-                    <img src="./img/picture/mposiul.jpg" alt="myLive" width="256">
-                    <figure>
-                        <img src="./img/category/html.svg" alt="HTML" width="64" height="64" />
-                        <img src="./img/category/css.svg" alt="CSS" width="64" height="64" />
-                        <img src="./img/category/js.svg" alt="JavaScript" width="64" height="64" />
-                        <img src="./img/category/react.svg" alt="React" width="64" height="64" />
+                <div class="hero__img">
+                    <img src="./img/picture/mposiul.jpg" alt="myLive" width="256" class="hero__primary-img">
+                    <figure class="hero__decorators">
+                        <img src="./img/category/html.svg" alt="HTML" width="64" height="64" class="hero__decorator" />
+                        <img src="./img/category/css.svg" alt="CSS" width="64" height="64" class="hero__decorator" />
+                        <img src="./img/category/js.svg" alt="JavaScript" width="64" height="64" class="hero__decorator" />
+                        <img src="./img/category/react.svg" alt="React" width="64" height="64" class="hero__decorator" />
                     </figure>
                 </div>
             </div>

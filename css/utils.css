@@ -1,3 +1,7 @@
+.d-none {
+    display: none;
+}
+
 .p-relative {
     position: relative;/*contenedor que contiene la posicion absoluta del item .nav__icon*/
 }
@@ -7,16 +11,24 @@
 }
 
 .gap-sm {
-    gap: calc(var(--padding-section) * 0.5);/**/
+    gap: calc(var(--padding-section) * 0.5);
 }
 
 .gap-md {
     gap: var(--padding-section);
 }
 
+.gap-lg {
+    gap: calc(var(--padding-section) * 1.5);
+}
+
 /*modificacion en ul*/
 @media (min-width: 768px) {
     .md\:f-direction-row {
         flex-direction: row;
+    }
+
+    .md\:d-block {
+        display: block;
     }
 }

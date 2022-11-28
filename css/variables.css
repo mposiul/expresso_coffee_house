@@ -14,10 +14,18 @@
     --primary-button-color: #61dafb;
     --secondary-button-color: gold;
     /*--primary-font-family: 'Open Sans', sans-serif;/**/
-    --primary-font-family: 'Inconsolata', monospace;/**/
-    --max-width-container: 1024px;
+    --primary-font-family: 'Inconsolata', monospace;
+    --max-width-container: 512px;
     --padding-section: 1.5rem;
     --padding-container: 1rem;
     --primary-border-radius: 0.5rem;
     --transparencia_01: rgba(20, 19, 19, 0.877);
+}
+
+@media (min-width: 768px) {
+    :root {
+        --max-width-container: 1024px;
+        --padding-section: 2rem;
+        --padding-container: 0.75rem;
+    }
 }
