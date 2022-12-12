@@ -1,0 +1,42 @@
+.d-none {
+    display: none;
+}
+
+.p-relative {
+    position: relative;/*contenedor que contiene la posicion absoluta del item .nav__icon*/
+}
+
+.f-direction-column {
+    flex-direction: column;
+}
+
+.gap-sm {
+    gap: calc(var(--padding-section) * 0.5);
+}
+
+.gap-md {
+    gap: var(--padding-section);
+}
+
+.gap-lg {
+    gap: calc(var(--padding-section) * 1.5);
+}
+
+.gap-xl {
+    gap: calc(var(--padding-section) * 2);
+}
+
+.gap-xxl {
+    gap: calc(var(--padding-section) * 2.5);
+}
+
+/*modificacion en ul*/
+@media (min-width: 768px) {
+    .md\:f-direction-row {
+        flex-direction: row;
+    }
+
+    .md\:d-block {
+        display: block;
+    }
+}

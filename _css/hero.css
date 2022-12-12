@@ -9,7 +9,7 @@
 .hero__img {
     position: relative;
     max-width: 256px;
-    max-height: 256px;
+    /*max-height: 256px;/**/
 }
 
 .hero__primary-img {

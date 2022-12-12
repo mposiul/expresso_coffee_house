@@ -12,7 +12,8 @@
     --primary-highlight-color: #61dafb;
     --secondary-highlight-color: gold;
     --primary-button-color: #61dafb;
-    --secondary-button-color: gold;
+    --secondary-button-color: rgba(20, 19, 19, 0.877);
+    --terciary-button-color: #ffffff40;
     /*--primary-font-family: 'Open Sans', sans-serif;/**/
     --primary-font-family: 'Inconsolata', monospace;
     --max-width-container: 512px;
